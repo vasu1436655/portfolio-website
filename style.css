@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 50px;
+}
+
+.header{
+    top: 0px;
+    width: 100%;
+    /* height: 50px; */
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    position: fixed;
+}
+.logo{
+    width: 20%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    width: 30%;
+    /* height: 50px; */
+    /* background-color: blue; */
+}
+.navlinks{
+    width: 100%;
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .5s;
+}
+/* banner */
+.banner{
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    padding: 30px 5%;
+    display: flex;
+    /* top-bottom,left-right */
+}
+.bannerpic{
+    margin-top: 30px;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(14, 1, 1);
+    background-image: url(vasu.img.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.details{
+    width: 60%;
+    padding: 20px;
+    /* background-color: white; */
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+}
+.n{
+    font-size: 60px;
+}
+.nn{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(10, 10, 77);
+}
+.nnn{
+    font-size: 20px;
+}
+.cta{
+    padding: 15px 40px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    /* transition: .5s; */
+}
+.cta:hover{
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+    /* transform: scale(1.1); */
+}
+li:hover{
+    color: rgb(183, 183, 206);
+}
+
+/* servises */
+
+.services{
+    width: 100%;
+    padding: 30px 5%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.sn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left:20px;
+}
+.service{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: rgb(45, 38, 38); */
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    row-gap: 10px;
+    column-gap: 4%;
+}
+.serv{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 200px; */
+    /* background-color: yellow; */
+    row-gap: 10px;
+    box-shadow: 0 0 2px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.serv:hover{
+    transform: scale(1.2);
+    background-color: rgb(224, 220, 220);
+}
+.ctas{
+  padding: 12px 25px; 
+  color: white;
+  background-color: blue;
+  border: 2px solid gray;
+  border-radius: 10px; 
+  margin-top: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+.ctas:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+/* ach */
+
+.ach{
+    padding: 30px 6%;
+    background-color: rgb(188, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achc{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(188, 180, 180);
+    display: flex;
+    column-gap: 4%;
+}
+.ach1{
+    padding: 10px;
+    width: 22%;
+    height: 200px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    color: rgb(69, 68, 68);
+}
+.ach1:hover{
+    color: rgb(0, 0, 0);
+    transform: translate(1%);
+}
+
+.num{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+.tag{
+    font-size: 20px;
+}
+/* quote */
+
+.quote{
+    width: 100%;
+    height:400px;
+    /* padding: 0px 10%; */
+    background-image: url(vasu1.img.jpg);
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    padding: 30px 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .6);
+}
+.qa{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: rgb(255, 252, 252); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp{
+    width: 60%;
+    height: 50px;
+    background-color: transparent;
+    text-indent: 20px;
+    border: 1px solid rgb(255, 251, 251);
+    outline: none;
+    border-radius: 9px;
+}
+::placeholder{
+  color: rgb(255, 253, 253);
+}
+
+/* clints */
+.cn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left:100px;
+    padding-bottom: 30px;
+}
+
+
+.clcu{
+    padding: 20px 7%; 
+     /* background-color: green;  */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.clints .clc .clcu >li{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+.clints .clc .clcu >li:hover{
+    color: blue;
+    transform: scale(1.9);
+}
+
+/* footer  */
+
+.footer{
+    background-color: rgb(84, 83, 83);
+    padding: 20px;
+    margin-top: 3%;
+}
+.fc{
+    /* background-color: rgb(57, 56, 56); */
+    padding: 20px 0px;
+    display: flex;
+    column-gap: 50px;
+    margin-left: 5%;
+    color: rgb(255, 252, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fcc{
+    width: 22%;
+    /* background-color: rgb(110, 109, 109); */
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.fccc{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.map{
+    width: 30%;
+    margin-left: 9%;
+}
+img{
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+}
+.fcc h3{
+    font-size: 30px;
+}
